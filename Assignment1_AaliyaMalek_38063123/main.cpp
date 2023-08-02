@@ -17,7 +17,7 @@ int main()
     while (counter<= student )
     {
 
-        cout << "\n Enter mark for student " << counter << ": ";
+        cout << "\n Enter a mark for student " << counter << ": ";
         cin >> mark;
 
         sum+= mark;
@@ -36,7 +36,7 @@ int main()
     counter++;
     }
 
-    cout << "\n ************************************************************************" << endl;
+    cout << "\n **************************************************************************" << endl;
 
         average = sum/student;
     cout << "\n The highest mark was : " << (maximum*100.0)/100.0 << endl;
@@ -44,5 +44,5 @@ int main()
     cout << "\n The lowest mark was : "<< (minimum*100.0)/100.0  << endl;
 
     cout << "\n The average was : " << round(average*100.0)/100.0 <<endl;
-    cout << "\n ************************************************************************" << endl;
+    cout << "\n **************************************************************************" << endl;
 }
